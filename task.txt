@@ -1,0 +1,80 @@
+************
+Registracija +++
+************
+    --User može da se registruje/napravi svoj profil
+    --Validacija podataka kroz HTML i PHP|
+    --Password i Confirm password
+    --Password je zaštićen u DB
+    --Admin se kreira u bazi
+************
+Login +++
+************
+    --Napraviti login formu
+    --Kada se korisnik loguje dobija se povratna informacija uspesnom logovanju
+    --Status da je user logovan je uvek vidljiv
+    --Postoji logout button
+**************
+Obrada profila +++
+**************
+    --User može da pregleda i edituje svoje podatke
+    --Lozinka se menja tako sto se unese stara
+****************
+Friends/Requests
+****************
+    --Mogućnost prikaza svih "'prijatelja
+    --Prijem i slanje zahteva za prijateljstvo
+    --Zahtevi za prijateljstvo jasno vidljivi
+    --Unfriend opcija
+*******
+Postovi
+*******
+    --Postovi jasno vidljivi sa lajkovima i komentarima
+    --Postovi se vide od najnovijeg ka najstarijim
+    --Uz post idu ime autora i datum
+    --User može da obrise i edituje svoj post
+***********
+File Upload +++
+***********
+    --Mogu da se uploaduju slike
+    --Slike su pravilno uparene sa autorom i postom
+    --Slike se čuvaju na serveru u svom folderu
+    --Neophodne informacije se čuvaju u DB
+*************************
+Obrada postova i pretraga +++
+*************************
+    --Filtriranje postova po kategorijama
+    --Lajkovi i dislajkovi su kao ikonice sa counterom
+    --Bonus - pretraga komentara, slika i postova
+*********************
+Objavljivanje postova +++
+*********************
+    --Postovi mogu da se objave, public, private, friends
+    --Postovi mogu da se edituju
+***************
+Privatne poruke
+***************
+    --NgBgWIti messaging interfejs s^ inbox i delom za slanje
+    --Poslate poruke idu u Sent
+    --Nove poruke su hajlajtovane
+    --Poruke koje su pročitane su označene kao pročitane
+*****************
+Project struktura
+*****************
+    --index.php sa osnovnim layoutom
+    --CSS + US uključeni
+    --Delovi stranica u zasebnom folderu
+    --Projektna struktura je podeljena po komponentama
+    --Kod je sa komentarima
+    --Ceo saj je responsive
+    --Clean UI
+    --Bonus - lep dizajn
+************
+Tipovi usera +++
+************
+    --Anonimni, registrovani, admin
+    --U zavisnosti od uloge različite funkcionalnosti
+****
+Baza
+****
+    --Kreirati bazu (eksportovati po završetku)
+    --Postaviti centralni config fajl
