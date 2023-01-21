@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.css";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import Home from "./pages/Home/Home";
+import {home, singlePost} from "./routes/routes";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,7 +13,7 @@ const browserRouter = createBrowserRouter([
     {
         path: "/",
         element: <App/>,
-        children: []
+        children: [home, singlePost]
     }
 ]);
 root.render(

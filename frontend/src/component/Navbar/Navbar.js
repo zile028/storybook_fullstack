@@ -1,9 +1,10 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 function Navbar() {
     return <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container">
-            <a className="navbar-brand" href="index.php">StoryBook</a>
+            <Link className="navbar-brand" to="/">StoryBook</Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -11,10 +12,10 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false">
+                        <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown"
+                              aria-expanded="false">
                             Settings
-                        </a>
+                        </Link>
                         <ul className="dropdown-menu">
                             <li><a className="dropdown-item" href="user/account.php">Account</a></li>
                             <li><a className="dropdown-item" href="/">Another action</a></li>
